@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sena\\source\\repos\\Trabajo #C\\ConsolePOO\\ConsolePOO.csproj": {}
+    "C:\\Users\\natal\\Downloads\\ConsolePOO-20220509T020317Z-001\\ConsolePOO\\ConsolePOO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sena\\source\\repos\\Trabajo #C\\ConsolePOO\\ConsolePOO.csproj": {
+    "C:\\Users\\natal\\Downloads\\ConsolePOO-20220509T020317Z-001\\ConsolePOO\\ConsolePOO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sena\\source\\repos\\Trabajo #C\\ConsolePOO\\ConsolePOO.csproj",
+        "projectUniqueName": "C:\\Users\\natal\\Downloads\\ConsolePOO-20220509T020317Z-001\\ConsolePOO\\ConsolePOO.csproj",
         "projectName": "ConsolePOO",
-        "projectPath": "C:\\Users\\Sena\\source\\repos\\Trabajo #C\\ConsolePOO\\ConsolePOO.csproj",
-        "packagesPath": "C:\\Users\\Sena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sena\\source\\repos\\Trabajo #C\\ConsolePOO\\obj\\",
+        "projectPath": "C:\\Users\\natal\\Downloads\\ConsolePOO-20220509T020317Z-001\\ConsolePOO\\ConsolePOO.csproj",
+        "packagesPath": "C:\\Users\\natal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\natal\\Downloads\\ConsolePOO-20220509T020317Z-001\\ConsolePOO\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\natal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

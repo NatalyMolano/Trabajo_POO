@@ -14,63 +14,63 @@ namespace ConsolePOO
             Console.WriteLine("Sub menu Operadores");
             Console.WriteLine("---------------------");
             Console.WriteLine("Selecciones una de las siguientes opciones: ");
-            Console.WriteLine(" a. si desea Calcular el área de un triángulo.");
-            Console.WriteLine(" b. si desea Ingresar dos números por teclado y sumarlos.");
-            Console.WriteLine(" c. si desea Ingresar un número y visualizar el número elevado al cuadrado. ");
-            Console.WriteLine(" d. si desea Escribir un algoritmo que convierta de euros a dólares.");
-            Console.WriteLine(" e. si desea Escribir un algoritmo que pida el lado de un cuadrado y muestre el valor del área y del perímetro..");
-            Console.WriteLine(" f. si desea Escribir un algoritmo que determine el área y el volúmen de un cilindro.");
-            Console.WriteLine(" g. si desea Realizar un algoritmo que lea el radio de una circunferencia y escriba la longitud de la misma yel área(pi * r) ^ 2 del círculo inscrito. ");
-            Console.WriteLine(" h. si desea Calcular el promedio de tres (3) números ingresados por teclado.");
+            Console.WriteLine(" 1. si desea Calcular el área de un triángulo.");
+            Console.WriteLine(" 2. si desea Ingresar dos números por teclado y sumarlos.");
+            Console.WriteLine(" 3. si desea Ingresar un número y visualizar el número elevado al cuadrado. ");
+            Console.WriteLine(" 4. si desea Escribir un algoritmo que convierta de euros a dólares.");
+            Console.WriteLine(" 5. si desea Escribir un algoritmo que pida el lado de un cuadrado y muestre el valor del área y del perímetro..");
+            Console.WriteLine(" 6. si desea Escribir un algoritmo que determine el área y el volúmen de un cilindro.");
+            Console.WriteLine(" 7. si desea Realizar un algoritmo que lea el radio de una circunferencia y escriba la longitud de la misma yel área(pi * r) ^ 2 del círculo inscrito. ");
+            Console.WriteLine(" 8. si desea Calcular el promedio de tres (3) números ingresados por teclado.");
             Console.WriteLine(" 99. si desea Salir del programa");
             Console.WriteLine("---------------------- ");
             opcion_operadores = Console.ReadLine();
             switch (opcion_operadores)
             {
-                case "a": 
+                case "1": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.AreaTriangulo( );
                          break;
                     }
-                case "b": 
+                case "2": 
                     {   Ejercicios ejercicios=new Ejercicios();
                         ejercicios.Suma();
                         break; 
                     }
-                case "c": 
+                case "3": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.Cuadrado();
                         break; 
                     }
-                case "d": 
+                case "4": 
                     {
 
                         Ejercicios ejercicios= new Ejercicios();
                         ejercicios.ConversionDolaresEuros();
                         break; 
                     }
-                case "e": 
+                case "5": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.AreayPerimetro();
                         
                         break; 
                     }
-                case "f": 
+                case "6": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.AreayVolumen();
                         break; 
                     }
-                case "g": 
+                case "7": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.Radio();
                         break; 
                     }
-                case "h": 
+                case "8": 
                     {
                         Ejercicios ejercicios = new Ejercicios();
                         ejercicios.Promedio();

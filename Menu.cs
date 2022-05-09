@@ -42,7 +42,12 @@ namespace ConsolePOO
                         ciclos.ciclos();
                         break; 
                     }
-                
+                case "99": 
+                    { 
+                         
+                        break; 
+                    }
+
                 default: { Console.WriteLine("Opcion invalida"); break; }
             }
 
