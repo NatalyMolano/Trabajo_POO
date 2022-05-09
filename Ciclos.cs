@@ -23,6 +23,7 @@ namespace ConsolePOO
             Console.WriteLine(" 6. si desea Dar dos números naturales, el primero menor que el segundo,mostrar todos los ");
             Console.WriteLine(" comprendidos entre ellos en secuencia ascendente.");
             Console.WriteLine(" 7. Sumar todos los números que se digitan por teclado mientras no sea cero.");
+            Console.WriteLine(" 8. Si desea volver al menu principal");
             Console.WriteLine(" 99. si desea Salir del programa");
             Console.WriteLine("---------------------- ");
             opcion_ciclos = Console.ReadLine();
@@ -35,6 +36,7 @@ namespace ConsolePOO
                 case "5": { Ejercicios ejercicios = new Ejercicios(); ejercicios.SumaCuadrados(); break; }
                 case "6": { Ejercicios ejercicios = new Ejercicios(); ejercicios.comprendidos(); break; }
                 case "7 ": { Ejercicios ejercicios = new Ejercicios(); ejercicios.SumavariosN(); break; }
+                case "8": { main main = new main(); main.Main(); break; }
                 case "99": {  break; }
                 default: { Console.WriteLine("Opcion invalida"); break; }
             }
