@@ -10,93 +10,145 @@ namespace ConsolePOO
     {
         public void condicionales()
         {
-            
-            string opcion_condicionales;
-            Console.WriteLine("Sub menu Condicionales");
-            Console.WriteLine("---------------------");
-            Console.WriteLine("Selecciones una de las siguientes opciones: ");
-            Console.WriteLine(" 1. si desea escribir un algoritmo para saber si el numero ingresado por teclado es positivo o negativo.");
-            Console.WriteLine(" 2. si desea escribir un algoritmo que reciba dos numeros por teclao y diga cual es el mayor y cual es el menor.");
-            Console.WriteLine(" 3. si desea Ingrese  tres números enteros positivos para que calcule e imprima en pantalla el menor y el mayor de ellos");
-            Console.WriteLine(" 4. si desea Dar dos números A y B, sumarlos si A es menor que B o sino restarlos.");
-            Console.WriteLine(" 5. si desea Dar dos números A y B encontrar el cociente entre A y B.");
-            Console.WriteLine(" 6. si desea Dar dos números A y B, sumarlos si al menos uno de ellos es negativo, en caso contrario multiplicarlos.");
-            Console.WriteLine(" 7. si desea Escribir un algoritmo que determine si un año es bisiesto o no.");
-            Console.WriteLine(" 99. si desea Salir del programa");
-            Console.WriteLine("---------------------- ");
-            opcion_condicionales = Console.ReadLine();
-            switch (opcion_condicionales)
+            int opcion_condicionales;
+            do
             {
-                case "1": 
-                    { 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.PositivoNegativo(); 
-                        break; 
-                    }
-                case "2": 
-                    {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.MayorMenor();
-                        break; 
-                    }
-                case "3": 
-                    {
+                try
+                {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.NumerosEnteros(); 
-                        break; 
-                    }
-                case "4": 
+                    Console.WriteLine("Sub menu Condicionales");
+                    Console.WriteLine("---------------------");
+                    Console.WriteLine("Selecciones una de las siguientes opciones: ");
+                    Console.WriteLine(" 1. si desea escribir un algoritmo para saber si el numero ingresado por teclado es positivo o negativo.");
+                    Console.WriteLine(" 2. si desea escribir un algoritmo que reciba dos numeros por teclao y diga cual es el mayor y cual es el menor.");
+                    Console.WriteLine(" 3. si desea Ingrese  tres números enteros positivos para que calcule e imprima en pantalla el menor y el mayor de ellos");
+                    Console.WriteLine(" 4. si desea Dar dos números A y B, sumarlos si A es menor que B o sino restarlos.");
+                    Console.WriteLine(" 5. si desea Dar dos números A y B encontrar el cociente entre A y B.");
+                    Console.WriteLine(" 6. si desea Dar dos números A y B, sumarlos si al menos uno de ellos es negativo, en caso contrario multiplicarlos.");
+                    Console.WriteLine(" 7. si desea Escribir un algoritmo que determine si un año es bisiesto o no.");
+                    Console.WriteLine(" 99. si desea Salir del programa");
+                    Console.WriteLine("---------------------- ");
+                    opcion_condicionales = int.Parse(Console.ReadLine());
+                    switch (opcion_condicionales)
                     {
+                        case 1:
+                            {
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.PositivoNegativo();
+                                break;
+                            }
+                        case 2:
+                            {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.SumaResta(); 
-                        break; 
-                    }
-                case "5": 
-                    {
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.MayorMenor();
+                                break;
+                            }
+                        case 3:
+                            {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.Cociente(); 
-                        break; 
-                    }
-                case "6": 
-                    {
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.NumerosEnteros();
+                                break;
+                            }
+                        case 4:
+                            {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.sumaMultiplicacion();
-                        break; 
-                    }
-                case "7": 
-                    {
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.SumaResta();
+                                break;
+                            }
+                        case 5:
+                            {
 
-                        Ejercicios ejercicios = new Ejercicios();
-                        ejercicios.AñoBisiesto();
-                        break; 
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.Cociente();
+                                break;
+                            }
+                        case 6:
+                            {
+
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.sumaMultiplicacion();
+                                break;
+                            }
+                        case 7:
+                            {
+
+                                Ejercicios ejercicios = new Ejercicios();
+                                ejercicios.AñoBisiesto();
+                                break;
+                            }
+                        case 99:
+                            {
+                                Environment.Exit(1);
+                                break;
+                            }
+
                     }
-                case "99": 
-                    {
-                        
-                        break; 
-                    }
-                default:
-                    { Console.WriteLine("Opcion invalida"); break; }
-                    Console.ReadKey();
-            }
-            
+                }
+                catch (FormatException ex)
+                {
+                    Console.WriteLine("\nERROR \nNo ingreso un dato numerico");
+                    Console.WriteLine("------------------------------------ ");
+                    Console.WriteLine("Ingrese un dato numerico ");
+                    Console.WriteLine(" ");
+
+                    opcion_condicionales = 0;
+                    Condicionales condicionales = new Condicionales();
+                    condicionales.condicionales();
+                }
+
+            } while (opcion_condicionales == 1 || opcion_condicionales == 2 || opcion_condicionales == 3 || opcion_condicionales == 4 || opcion_condicionales == 5 || opcion_condicionales == 6 || opcion_condicionales == 7 || opcion_condicionales == 99);
+
+
+
+
         }
-        
 
-        
+
+
     }
     class Ejercicios
-    { 
+    {
+        private double num1 = 0.0;
+        private double num2 = 0.0;
+        private double num3 = 0.0;
+        private double respuesta = 0.0;
+        public double getNum1()
+        {
+            return this.num1;
+        }
+        public void setNum1(double num1)
+        {
+            this.num1 = num1;
+        }
+        public double getNum2()
+        {
+            return this.num2;
+        }
+        public void setNum2(double num2)
+        {
+            this.num2 = num2;
+        }
+        public double getNum3()
+        {
+            return this.num3;
+        }
+        public void setNum3(double num3)
+        {
+            this.num3 = num3;
+        }
+        public double getRespuesta()
+        {
+            return this.respuesta;
+        }
+        public void setRespuesta(double respuesta)
+        {
+            this.respuesta = respuesta;
+        }
 
-        double num1 = 0.0;
-        double num2 = 0.0;  
-        double num3 = 0.0;  
-        double respuesta = 0.0;
         public double PositivoNegativo()
         {
             Console.WriteLine("Ingrese numero: ");
@@ -129,7 +181,7 @@ namespace ConsolePOO
                 Console.WriteLine("el numero mayor es: " + num2 + " el numero menor es:" + num1);
             }
             Console.ReadLine();
-            return num1+num2;
+            return num1 + num2;
 
 
         }
@@ -165,13 +217,13 @@ namespace ConsolePOO
             {
                 Console.WriteLine("El numero menor es: " + num3);
             }
-            
+
             Console.ReadKey();
             return num1;
         }
         public double SumaResta()
         {
-            
+
             Console.WriteLine("Ingresa numero: ");
             num1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese numero: ");
@@ -192,7 +244,7 @@ namespace ConsolePOO
         }
         public double Cociente()
         {
-            
+
             Console.WriteLine("Ingrese el numero dividendo: ");
             num1 = double.Parse(Console.ReadLine());//num1
             Console.WriteLine("Ingrese el numero divisor: ");
@@ -209,15 +261,15 @@ namespace ConsolePOO
             }
             else
             {
-                Console.WriteLine("El cociente es: " + num1 / num2 );
-              
+                Console.WriteLine("El cociente es: " + num1 / num2);
+
             }
             Console.ReadKey();
             return num1 / num2;
         }
         public double sumaMultiplicacion()
         {
-            
+
             Console.WriteLine("Ingrese numero: ");
             num1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Ingrese segundo numero: ");
@@ -255,7 +307,7 @@ namespace ConsolePOO
             Console.ReadKey();
             return num1;
         }
-        
+
     }
-    
+
 }
