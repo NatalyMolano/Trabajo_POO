@@ -157,92 +157,92 @@ namespace ConsolePOO
                 
                 Console.WriteLine("Calcular area del triangulo");
                 Console.WriteLine("Ingrese la base del triangulo: ");
-                num1 = double.Parse(Console.ReadLine());
+                setNum1(double.Parse(Console.ReadLine()));
                 Console.WriteLine("Ingrese la altura del triangulo: ");
-                num2 = double.Parse(Console.ReadLine());
-                respuesta = (num1 * num2) / 2;
-                Console.WriteLine("El area del triangulo es: " + respuesta + " cm²");
+                setNum2(double.Parse(Console.ReadLine()));
+                setRespuesta((getNum1() * getNum2() / 2));
+                Console.WriteLine("El area del triangulo es: " + getRespuesta() + " cm²");
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
             public double Suma()
             {
                 Console.WriteLine("Ingrese el primer número : ");
-                num1 = Convert.ToInt32(Console.ReadLine());
+                setNum1(Convert.ToInt32(Console.ReadLine()));
                 Console.WriteLine("Ingrese el segundo número : ");
-                num2 = Convert.ToInt32(Console.ReadLine());
-                respuesta = num1 + num2;
-                Console.WriteLine("La suma de los numeros es:  " + respuesta);
-                return respuesta;
+                setNum2(Convert.ToInt32(Console.ReadLine()));
+                setRespuesta(getNum1() + getNum2());
+                Console.WriteLine("La suma de los numeros es:  " + getRespuesta());
+                return getRespuesta();
             }
             public double Cuadrado()
             {
                 
                 Console.WriteLine("Ingrese un numero");
-                num1 = double.Parse(Console.ReadLine());
-                respuesta = num1 * num1;
-                Console.WriteLine("El numero " + num1 + " Elevado al cuadrado es: " + respuesta);
+                setNum1(double.Parse(Console.ReadLine())); 
+                setRespuesta(getNum1() * getNum1()) ;
+                Console.WriteLine("El numero " + getNum1() + " Elevado al cuadrado es: " + getRespuesta());
                 //Console.WriteLine(Math.Pow(numero, 2));
 
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
             public double ConversionDolaresEuros()
             {
                 
                 Console.WriteLine("Ingrese los euros que desea convertir: ");
-                num1 = double.Parse(Console.ReadLine());
-                respuesta = num1 * 1.06;
-                Console.WriteLine("La convercion a dolares es:" + respuesta);
+                setNum1(double.Parse(Console.ReadLine()));
+                setRespuesta(getNum1() * 1.06);
+                Console.WriteLine("La convercion a dolares es:" + getRespuesta());
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
             public double AreayPerimetro()
             {
                 Console.WriteLine("Ingrese la medida de lado del cuadrado: ");
-                num1 = double.Parse(Console.ReadLine());
-                num2 = num1   * num1 ;
-                respuesta = 4 * num1;
+                setNum1(double.Parse(Console.ReadLine()));
+                setNum2(getNum1() * getNum1());
+                setRespuesta(4 * getNum1());
 
-                Console.WriteLine("El area del cuadrado es: " + num2 + "cm²");
-                Console.WriteLine("El perimetro del cuadrado es: " + respuesta);
+                Console.WriteLine("El area del cuadrado es: " + getNum2() + "cm²");
+                Console.WriteLine("El perimetro del cuadrado es: " + getRespuesta());
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
             public double AreayVolumen()
             {
                 Console.WriteLine("Ingrese la perimetro: ");
-                num1 = double.Parse(Console.ReadLine());//num1
+                setNum1(double.Parse(Console.ReadLine()));//num1
                 Console.WriteLine("Ingrese la altura");
-                num2 = double.Parse(Console.ReadLine());//num2
+                setNum2(double.Parse(Console.ReadLine()));//num2
                 Console.WriteLine("Ingrese radio");
-                num3 = double.Parse(Console.ReadLine());//num3
-                Console.WriteLine("el area del cilindro es: " + (2 * Math.PI * num1 * num2));
-                Console.WriteLine("el volumen del cilindro es:" + (Math.PI * num3 * num3 * num2));
+                setNum3(double.Parse(Console.ReadLine()));//num3
+                Console.WriteLine("el area del cilindro es: " + (2 * Math.PI * getNum1() * getNum2()));
+                Console.WriteLine("el volumen del cilindro es:" + (Math.PI * getNum3() * getNum3() * getNum2()));
                 Console.ReadKey();
-                return num3;
+                return getNum3();
             }
             public double Radio()
             {
                 Console.WriteLine("Ingrese el area");
-                num1 = double.Parse(Console.ReadLine());
-                Console.WriteLine("El radio es: " + Math.Sqrt(num1 / Math.PI));
+                setNum1(double.Parse(Console.ReadLine()));
+                Console.WriteLine("El radio es: " + Math.Sqrt(getNum1() / Math.PI));
                 Console.ReadKey();
-                return num1;
+                return getNum1();
             }
             public double Promedio()
             {
                 Console.WriteLine("Ingrese primer valor: ");
-                num1 = double.Parse(Console.ReadLine());
+                setNum1(double.Parse(Console.ReadLine()));
                 Console.WriteLine("Ingrese segundo valor: ");
-                num2 = double.Parse(Console.ReadLine());
+                setNum2(double.Parse(Console.ReadLine()));
                 Console.WriteLine("Ingrese tercer valor: ");
-                num3 = double.Parse(Console.ReadLine());
-                respuesta = (num1 + num2 + num3) / 3;
-                Console.WriteLine("El promedio de los tres valores es de: " +respuesta);
+                setNum3(double.Parse(Console.ReadLine()));
+                setRespuesta((getNum1() + num2 + num3) / 3);
+                Console.WriteLine("El promedio de los tres valores es de: " +getRespuesta());
                 
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
 
         }

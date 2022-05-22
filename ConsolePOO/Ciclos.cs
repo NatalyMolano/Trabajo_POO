@@ -101,89 +101,89 @@ namespace ConsolePOO
             }
             public double Multiplos()
             {
-                for (num1 = 1; num1 < 100; num1++)//num1
+                for (setNum1(1) ; getNum1() < 100; num1++)//num1
                 {
-                    if (num1 % 3 == 0)
+                    if (getNum1() % 3 == 0)
                     {
-                        Console.Write("{0}|", num1);
+                        Console.Write("{0}|", getNum1());
                     }
                 }
                 Console.ReadKey();
-                return num1;
+                return getNum1();
             }
             public double Impares()
             {
-                for (num1 = 1; num1 < 100; num1 += 2)
+                for (setNum1(1); getNum1() < 100; num1 += 2)
                 {
-                    Console.Write("{0}|", num1);
+                    Console.Write("{0}|", getNum1());
 
                 }
                 Console.ReadKey();
-                return num1;
+                return getNum1();
             }
             public double Pares()
             {
-                for (num1 = 1; num1 < 100; num1++)
+                for (setNum1(1); getNum1() < 100; num1++)
                 {
-                    if (num1 % 2 == 0)
+                    if (getNum1() % 2 == 0)
                     {
-                        Console.Write("{0}|", num1);
+                        Console.Write("{0}|", getNum1());
                     }
                 }
                 Console.ReadKey();
-                return num1;
+                return getNum1();
             }
             public double Cuadrados()
             {
-                for (num1 = 1; num1 < 31; num1++)
+                for (setNum1(1); getNum1() < 31; num1++)
                 {
-                    Console.Write("| " + num1 * num1);
+                    Console.Write("| " + getNum1() * getNum1());
                     Console.ReadKey();
                 }
-                return num1;
+                return getNum1();
 
 
             }
             public double SumaCuadrados()
             {
                 
-                for (num1 = 1; num1 <= 100; num1++)//num1
+                for (setNum1(1); getNum1() <= 100; num1++)//num1
                 {
-                    Console.WriteLine("Numero " + num1);
-                    respuesta = respuesta + num1 * num1;
-                    Console.WriteLine("El cuadrado es: " + Math.Pow(num1, 2));
+                    Console.WriteLine("Numero " + getNum1());
+                    setRespuesta(getRespuesta() + getNum1() * getNum1());
+                    Console.WriteLine("El cuadrado es: " + Math.Pow(getNum1(), 2));
                 }
-                Console.WriteLine("\nLa suma total de los cuadrados es: " + respuesta);
+                Console.WriteLine("\nLa suma total de los cuadrados es: " + getRespuesta());
                 Console.ReadKey();
-                return respuesta;
+                return getRespuesta();
             }
             public double comprendidos()
             {
                 
                 Console.WriteLine("Ingrese numero menor: ");
-                num1 = double.Parse(Console.ReadLine());
+                setNum1(double.Parse(Console.ReadLine()));
                 Console.WriteLine("Ingrese numero mayor: ");
-                num2 = double.Parse(Console.ReadLine());
+                setNum2(double.Parse(Console.ReadLine())) ;
                 Console.WriteLine("Numeros comprendidos");
-                for (respuesta = num1; respuesta <= num2; respuesta++)
+                for (setRespuesta(1); getRespuesta() <= getNum2(); respuesta++)
                 {
-                    Console.Write("| " + respuesta);
+                    Console.Write("| " + getRespuesta());
                 }
-                return respuesta;
+                return getRespuesta();
             }
             public double SumavariosN()
             {
-                num1 = 0;//num1
-                num2 = 0;//num2
+                setNum1(0); //num1
+                setNum2(0);//num2
                 Console.WriteLine("¿cuantos numero quiere sumar?");
-                num3 = double.Parse(Console.ReadLine());//num3
-                for (respuesta = 1; respuesta <= num3; respuesta++)//respuesta
+                setNum3(double.Parse(Console.ReadLine()));//num3
+                for (setRespuesta(1); getRespuesta() <= getNum3(); respuesta++)//respuesta
                 {
-                    num1 = Convert.ToDouble(Console.ReadLine());
-                    num2 = num2 + num1;
+                    setNum1(Convert.ToDouble(Console.ReadLine()));
+                    setNum2(getNum2() + getNum1());
                 }
-                Console.WriteLine("La suma es: " + num2);
-                return num2;
+                Console.WriteLine("La suma es: " + getNum2());
+                return getNum2();
             }
 
         }

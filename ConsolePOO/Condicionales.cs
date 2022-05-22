@@ -175,11 +175,11 @@ namespace ConsolePOO
             }
             else if (getNum1() > getNum2())
             {
-                Console.WriteLine("el numero mayor es: " + getNum1() + " el numero menor es:" + num2);
+                Console.WriteLine("el numero mayor es: " + getNum1() + " el numero menor es:" + getNum2());
             }
             else
             {
-                Console.WriteLine("el numero mayor es: " + getNum2() + " el numero menor es:" + num1);
+                Console.WriteLine("el numero mayor es: " + getNum2() + " el numero menor es:" + getNum1());
             }
             Console.ReadLine();
             return getNum1()+getNum2();
@@ -212,15 +212,15 @@ namespace ConsolePOO
             }
             else if (getNum2() <= getNum3() && getNum2() <= getNum3())
             {
-                Console.WriteLine("El numero menor es:  " + num2);
+                Console.WriteLine("El numero menor es:  " + getNum2());
             }
-            else if (num3 <= num1 && num3 <= num2)
+            else if (getNum3() <= getNum1() && getNum3() <= getNum2())
             {
-                Console.WriteLine("El numero menor es: " + num3);
+                Console.WriteLine("El numero menor es: " + getNum3());
             }
             
             Console.ReadKey();
-            return num1;
+            return getNum1();
         }
         public double SumaResta()
         {
@@ -237,7 +237,7 @@ namespace ConsolePOO
             else if (getNum2() > getNum1())
             {
                 setRespuesta(getNum2() + getNum1()); //respuesta
-                Console.WriteLine("la resta de los numeros es: " + respuesta);
+                Console.WriteLine("la resta de los numeros es: " + getRespuesta());
             }
             Console.ReadKey();
             return getRespuesta();
@@ -262,7 +262,7 @@ namespace ConsolePOO
             }
             else
             {
-                Console.WriteLine("El cociente es: " + num1 / num2 );
+                Console.WriteLine("El cociente es: " + getNum1() / getNum2());
               
             }
             Console.ReadKey();
@@ -277,14 +277,14 @@ namespace ConsolePOO
             setNum2(double.Parse(Console.ReadLine()));
             if (getNum1() < 0 || getNum2() < 0)
             {
-                Console.WriteLine("La suma de los numeros es: " + (num1 + num2));
+                Console.WriteLine("La suma de los numeros es: " + (getNum1() + getNum2()));
             }
             else if (getNum1() >= 0 && getNum2() >= getNum1())
             {
-                Console.WriteLine("La multiplicacion de los numeros es: " + (getNum1() * getNum2());
+                Console.WriteLine("La multiplicacion de los numeros es: " + (getNum1() * getNum2()));
             }
             Console.ReadKey();
-            return num1;
+            return getNum1();
 
 
         }
@@ -297,16 +297,16 @@ namespace ConsolePOO
         {
             Console.WriteLine("Ingrese año: ");
             num1 = double.Parse(Console.ReadLine());//num1
-            if (Bisiesto(num1) == true)
+            if (Bisiesto(getNum1()) == true)
             {
-                Console.WriteLine("El año {0} es bisiesto ", num1);
+                Console.WriteLine("El año {0} es bisiesto ", getNum1());
             }
             else
             {
-                Console.WriteLine("El año {0} NO es bisiesto", num1);
+                Console.WriteLine("El año {0} NO es bisiesto", getNum1());
             }
             Console.ReadKey();
-            return num1;
+            return getNum1();
         }
         
     }
