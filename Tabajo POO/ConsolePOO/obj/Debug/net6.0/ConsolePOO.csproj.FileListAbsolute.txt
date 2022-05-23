@@ -1,0 +1,45 @@
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.exe
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.deps.json
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.runtimeconfig.json
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.dll
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.pdb
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.AssemblyReference.cache
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfoInputs.cache
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfo.cs
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.CoreCompileInputs.cache
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.dll
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\refint\ConsolePOO.dll
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.pdb
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.genruntimeconfig.cache
+C:\Users\Sena\source\repos\Trabajo #C\ConsolePOO\obj\Debug\net6.0\ref\ConsolePOO.dll
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.AssemblyReference.cache
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfoInputs.cache
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfo.cs
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.CoreCompileInputs.cache
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.dll
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\refint\ConsolePOO.dll
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.pdb
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.exe
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.deps.json
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.runtimeconfig.json
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.dll
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\bin\Debug\net6.0\ConsolePOO.pdb
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ConsolePOO.genruntimeconfig.cache
+C:\Users\natal\source\repos\Ejercicios-miselanea-C\ConsolePOO\obj\Debug\net6.0\ref\ConsolePOO.dll
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\bin\Debug\net6.0\ConsolePOO.exe
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\bin\Debug\net6.0\ConsolePOO.deps.json
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\bin\Debug\net6.0\ConsolePOO.runtimeconfig.json
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\bin\Debug\net6.0\ConsolePOO.dll
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\bin\Debug\net6.0\ConsolePOO.pdb
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.AssemblyReference.cache
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfoInputs.cache
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.AssemblyInfo.cs
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.csproj.CoreCompileInputs.cache
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.dll
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\refint\ConsolePOO.dll
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.pdb
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ConsolePOO.genruntimeconfig.cache
+C:\Users\Sena\Documents\Tabajo POO\ConsolePOO\obj\Debug\net6.0\ref\ConsolePOO.dll
