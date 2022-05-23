@@ -28,7 +28,7 @@ namespace ConsolePOO
                     Console.WriteLine(" 4. si desea Escribir un algoritmo que convierta de euros a dólares.");
                     Console.WriteLine(" 5. si desea Escribir un algoritmo que pida el lado de un cuadrado y muestre el valor del área y del perímetro..");
                     Console.WriteLine(" 6. si desea Escribir un algoritmo que determine el área y el volúmen de un cilindro.");
-                    Console.WriteLine(" 7. si desea Realizar un algoritmo que lea el radio de una circunferencia y escriba la longitud de la \n misma yel área(pi * r) ^ 2 del círculo inscrito. ");
+                    Console.WriteLine(" 7. si desea Realizar un algoritmo que lea el radio de una circunferencia y escriba la longitud de la \n misma y el área(pi * r) ^ 2 del círculo inscrito. ");
                     Console.WriteLine(" 8. si desea Calcular el promedio de tres (3) números ingresados por teclado.");
                     Console.WriteLine(" 99. si desea Salir del programa");
                     Console.WriteLine("---------------------- ");
@@ -224,9 +224,12 @@ namespace ConsolePOO
             }
             public double Radio()
             {
-                Console.WriteLine("Ingrese el area");
+                Console.WriteLine("Ingrese el radio de la circunferencia: ");
                 setNum1(double.Parse(Console.ReadLine()));
-                Console.WriteLine("El radio es: " + Math.Sqrt(getNum1() / Math.PI));
+                setNum2(getNum1() * 2 * System.Math.PI);
+                setNum3(System.Math.PI * getNum1() * getNum1());
+                Console.WriteLine("El  area del circulo es: " + getNum2() );
+                Console.WriteLine("La longitud de la circunferencia es: " + getNum3());
                 Console.ReadKey();
                 return getNum1();
             }
